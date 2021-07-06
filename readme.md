@@ -7,11 +7,11 @@
 
 #!/bin/bash -i
 
-## Отключаем вывод STDERR
+#### Отключаем вывод STDERR
 
 exec 2>/dev/null
 
-## Выводим содержимое каталога /proc в файл file
+#### Выводим содержимое каталога /proc в файл file
 
 ls -l /proc > file
 
